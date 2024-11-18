@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+header nav a.active, header nav a:hover {
+    background-color: #45a049;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fafafa;
+}
+.bio-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bio-info {
+    width: 60%;
+}
+
+.bio-image {
+    width: 30%;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+.bio-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-text {
+    max-width: 60%; /* Control the size of the text area */
+}
+
+.contact-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 0%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the bullet points */
+ul {
+    list-style-type: disc; /* Ensure bullet points are displayed */
+    padding-left: 20px; /* Adjust padding for proper indentation */
+}
+
+li {
+    margin-bottom: 5px; /* Add some space between list items */
+}
